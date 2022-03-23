@@ -1,0 +1,35 @@
+.nav {
+    background-color: #333333;
+    color: white;
+    min-height: 80px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 50%;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+.nav-title {
+    margin-left: 20px;
+}
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px black;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
